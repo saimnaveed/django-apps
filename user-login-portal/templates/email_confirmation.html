@@ -1,0 +1,11 @@
+{% autoescape off %}
+
+Welcome to Django  User Authentication Portal
+
+Hello {{ name }}
+
+Please confirm your email address by opening the link below.
+
+ConfirmationLink: http://{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+{% endautoescape %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %} Tech Works {% endblock title %}
+{% block body %}
+<div class="container-fluid px=0">
+<img src="https://loremflickr.com/1920/1080/contactUs" width="500" height="230" class="d-block w-100" alt="...""
+</div>
+<div class= "container mb-3 py-4">
+    <h2 class=" text-center"> Want to contact us?</h2>
+    <form method="post" action="/contacts">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="name"> Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Contact Number</label>
+        <input type="phone" class="form-control" id="phone" name="phone" placeholder="Your contact no..">
+    </div>
+
+    <div class="form-group">
+        <label for="description">Explain your concern</label>
+        <textarea class="form-control" id="description" name="description" placeholder="Your message.." rows="6"></textarea>
+    </div>
+
+    <button class="btn btn-primary my-2" type="submit">Submit</button>
+    </form>
+</div>
+{% endblock body %}

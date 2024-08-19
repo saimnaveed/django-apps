@@ -1,0 +1,10 @@
+
+https://images.unsplash.com/photo-1564910443496-5fd2d76b47fa?q=80&w=1600&h=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+https://images.unsplash.com/photo-1529567186287-3e17bdefa342?q=80&w=1600&h=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+https://images.unsplash.com/photo-1523251343397-9225e4cb6319?q=80&w=1600&h=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+static/images/road_in_wild.jfif
+static/images/nature.jfif
+static/images/lib.jfif
